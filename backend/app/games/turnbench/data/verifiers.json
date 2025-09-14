@@ -1,0 +1,1301 @@
+{
+    "1": {
+        "id": "1",
+        "description": "This Verifier verifies the BLUE number compared to 1",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is equal to 1",
+                "function": "blue_eq_1"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is greater than 1",
+                "function": "blue_gt_1"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069062+00:00",
+        "updated_at": "2025-06-17T09:36:30.069241+00:00"
+    },
+    "2": {
+        "id": "2",
+        "description": "This Verifier verifies the BLUE number compared to 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than 3",
+                "function": "blue_lt_3"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to 3",
+                "function": "blue_eq_3"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than 3",
+                "function": "blue_gt_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069248+00:00",
+        "updated_at": "2025-06-17T09:36:30.069252+00:00"
+    },
+    "3": {
+        "id": "3",
+        "description": "This Verifier verifies the YELLOW number compared to 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "YELLOW is less than 3",
+                "function": "yellow_lt_3"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to 3",
+                "function": "yellow_eq_3"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is greater than 3",
+                "function": "yellow_gt_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069255+00:00",
+        "updated_at": "2025-06-17T09:36:30.069257+00:00"
+    },
+    "4": {
+        "id": "4",
+        "description": "This Verifier verifies the YELLOW number compared to 4",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "YELLOW is less than 4",
+                "function": "yellow_lt_4"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to 4",
+                "function": "yellow_eq_4"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is greater than 4",
+                "function": "yellow_gt_4"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069260+00:00",
+        "updated_at": "2025-06-17T09:36:30.069261+00:00"
+    },
+    "5": {
+        "id": "5",
+        "description": "This Verifier verifies if BLUE number is even or odd",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is even",
+                "function": "blue_is_even"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is odd",
+                "function": "blue_is_odd"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069264+00:00",
+        "updated_at": "2025-06-17T09:36:30.069265+00:00"
+    },
+    "6": {
+        "id": "6",
+        "description": "This Verifier verifies if YELLOW number is even or odd",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "YELLOW is even",
+                "function": "yellow_is_even"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is odd",
+                "function": "yellow_is_odd"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069267+00:00",
+        "updated_at": "2025-06-17T09:36:30.069268+00:00"
+    },
+    "7": {
+        "id": "7",
+        "description": "This Verifier verifies if PURPLE number is even or odd",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "PURPLE is even",
+                "function": "purple_is_even"
+            },
+            {
+                "id": "1",
+                "description": "PURPLE is odd",
+                "function": "purple_is_odd"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069271+00:00",
+        "updated_at": "2025-06-17T09:36:30.069272+00:00"
+    },
+    "8": {
+        "id": "8",
+        "description": "This Verifier verifies the number of 1s in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 1s, such as 222",
+                "function": "zero_1s"
+            },
+            {
+                "id": "1",
+                "description": "one 1, such as 125",
+                "function": "one_1"
+            },
+            {
+                "id": "2",
+                "description": "two 1s, such as 112",
+                "function": "two_1s"
+            },
+            {
+                "id": "3",
+                "description": "three 1s, such as 111",
+                "function": "three_1s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069275+00:00",
+        "updated_at": "2025-06-17T09:36:30.069276+00:00"
+    },
+    "9": {
+        "id": "9",
+        "description": "This Verifier verifies the number of 3s in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 3s, such as 222",
+                "function": "zero_3s"
+            },
+            {
+                "id": "1",
+                "description": "one 3, such as 135",
+                "function": "one_3"
+            },
+            {
+                "id": "2",
+                "description": "two 3s, such as 331",
+                "function": "two_3s"
+            },
+            {
+                "id": "3",
+                "description": "three 3s, such as 333",
+                "function": "three_3s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069280+00:00",
+        "updated_at": "2025-06-17T09:36:30.069282+00:00"
+    },
+    "10": {
+        "id": "10",
+        "description": "This Verifier verifies the number of 4s in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 4s, such as 123",
+                "function": "zero_4s"
+            },
+            {
+                "id": "1",
+                "description": "one 4, such as 435",
+                "function": "one_4"
+            },
+            {
+                "id": "2",
+                "description": "two 4s, such as 434",
+                "function": "two_4s"
+            },
+            {
+                "id": "3",
+                "description": "three 4s, such as 444",
+                "function": "three_4s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069285+00:00",
+        "updated_at": "2025-06-17T09:36:30.069286+00:00"
+    },
+    "11": {
+        "id": "11",
+        "description": "This Verifier verifies the BLUE number compared to the YELLOW number",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than YELLOW",
+                "function": "blue_lt_yellow"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to YELLOW",
+                "function": "blue_eq_yellow"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than YELLOW",
+                "function": "blue_gt_yellow"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069516+00:00",
+        "updated_at": "2025-06-17T09:36:30.069518+00:00"
+    },
+    "12": {
+        "id": "12",
+        "description": "This Verifier verifies the BLUE number compared to the PURPLE number",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than PURPLE",
+                "function": "blue_lt_purple"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to PURPLE",
+                "function": "blue_eq_purple"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than PURPLE",
+                "function": "blue_gt_purple"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069521+00:00",
+        "updated_at": "2025-06-17T09:36:30.069522+00:00"
+    },
+    "13": {
+        "id": "13",
+        "description": "This Verifier verifies the YELLOW number compared to the PURPLE number",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "YELLOW is less than PURPLE",
+                "function": "yellow_lt_purple"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to PURPLE",
+                "function": "yellow_eq_purple"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is greater than PURPLE",
+                "function": "yellow_gt_purple"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069525+00:00",
+        "updated_at": "2025-06-17T09:36:30.069527+00:00"
+    },
+    "14": {
+        "id": "14",
+        "description": "This Verifier verifies which colour's number is smaller than either of the others",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is smaller than PURPLE and YELLOW",
+                "function": "blue_smallest"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is smaller than BLUE and PURPLE",
+                "function": "yellow_smallest"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is smaller than YELLOW and BLUE",
+                "function": "purple_smallest"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069530+00:00",
+        "updated_at": "2025-06-17T09:36:30.069531+00:00"
+    },
+    "15": {
+        "id": "15",
+        "description": "This Verifier verifies which colour's number is larger than either of the others",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is larger than PURPLE and YELLOW",
+                "function": "blue_largest"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is larger than BLUE and PURPLE",
+                "function": "yellow_largest"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is larger than YELLOW and BLUE",
+                "function": "purple_largest"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069534+00:00",
+        "updated_at": "2025-06-17T09:36:30.069535+00:00"
+    },
+    "16": {
+        "id": "16",
+        "description": "This Verifier verifies the number of even numbers compared to the number of odd numbers",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "there are more even numbers, such as 245",
+                "function": "more_even_numbers"
+            },
+            {
+                "id": "1",
+                "description": "there are more odd numbers, such as 332",
+                "function": "more_odd_numbers"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069542+00:00",
+        "updated_at": "2025-06-17T09:36:30.069543+00:00"
+    },
+    "17": {
+        "id": "17",
+        "description": "This Verifier verifies how many even numbers there are in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero even numbers, such as 135",
+                "function": "zero_even_numbers"
+            },
+            {
+                "id": "1",
+                "description": "one even number, such as 323",
+                "function": "one_even_number"
+            },
+            {
+                "id": "2",
+                "description": "two even numbers, such as 432",
+                "function": "two_even_numbers"
+            },
+            {
+                "id": "3",
+                "description": "three even numbers, such as 242",
+                "function": "three_even_numbers"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069546+00:00",
+        "updated_at": "2025-06-17T09:36:30.069547+00:00"
+    },
+    "18": {
+        "id": "18",
+        "description": "This Verifier verifies if the sum of all the numbers is even or odd",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of the numbers is even",
+                "function": "sum_is_even"
+            },
+            {
+                "id": "1",
+                "description": "the sum of the numbers is odd",
+                "function": "sum_is_odd"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069549+00:00",
+        "updated_at": "2025-06-17T09:36:30.069550+00:00"
+    },
+    "19": {
+        "id": "19",
+        "description": "This Verifier verifies the sum of BLUE and YELLOW compared to 6",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of BLUE and YELLOW is less than 6",
+                "function": "blue_yellow_sum_lt_6"
+            },
+            {
+                "id": "1",
+                "description": "the sum of BLUE and YELLOW is equal to 6",
+                "function": "blue_yellow_sum_eq_6"
+            },
+            {
+                "id": "2",
+                "description": "the sum of BLUE and YELLOW is greater than 6",
+                "function": "blue_yellow_sum_gt_6"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069553+00:00",
+        "updated_at": "2025-06-17T09:36:30.069554+00:00"
+    },
+    "20": {
+        "id": "20",
+        "description": "This Verifier verifies if a number repeats itself in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "a triple number, such as 222",
+                "function": "triple_number"
+            },
+            {
+                "id": "1",
+                "description": "a double number, such as 112",
+                "function": "double_number"
+            },
+            {
+                "id": "2",
+                "description": "no repetition, such as 125",
+                "function": "no_repetition"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069559+00:00",
+        "updated_at": "2025-06-17T09:36:30.069560+00:00"
+    },
+    "21": {
+        "id": "21",
+        "description": "This Verifier verifies if there is a number present exactly twice",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "no pairs, such 134 or 222",
+                "function": "no_pairs"
+            },
+            {
+                "id": "1",
+                "description": "a pair, such as 131",
+                "function": "has_pair"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069563+00:00",
+        "updated_at": "2025-06-17T09:36:30.069564+00:00"
+    },
+    "22": {
+        "id": "22",
+        "description": "This Verifier verifies if the 3 numbers in the code are in ascending order, decending order, or no order",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "ascending order, such as 135",
+                "function": "ascending_order"
+            },
+            {
+                "id": "1",
+                "description": "descending order, such as 421",
+                "function": "descending_order"
+            },
+            {
+                "id": "2",
+                "description": "no order, such as 231",
+                "function": "no_order"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069567+00:00",
+        "updated_at": "2025-06-17T09:36:30.069568+00:00"
+    },
+    "23": {
+        "id": "23",
+        "description": "This Verifier verifies the sum of all numbers compared to 6",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of the numbers is less than 6",
+                "function": "sum_lt_6"
+            },
+            {
+                "id": "1",
+                "description": "the sum of the numbers is equal to 6",
+                "function": "sum_eq_6"
+            },
+            {
+                "id": "2",
+                "description": "the sum of the numbers is greater than 6",
+                "function": "sum_gt_6"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069571+00:00",
+        "updated_at": "2025-06-17T09:36:30.069572+00:00"
+    },
+    "24": {
+        "id": "24",
+        "description": "This Verifier verifies if there is a sequence of ascending numbers",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "3 numbers in ascending order, such as 234",
+                "function": "three_ascending"
+            },
+            {
+                "id": "1",
+                "description": "2 numbers in ascending order, such as 233",
+                "function": "two_ascending"
+            },
+            {
+                "id": "2",
+                "description": "no numbers in ascending order, such as 135",
+                "function": "no_ascending"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069575+00:00",
+        "updated_at": "2025-06-17T09:36:30.069576+00:00"
+    },
+    "25": {
+        "id": "25",
+        "description": "This Verifier verifies if there is a sequence of ascending or descending numbers",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "no sequence of numbers in ascending or descending order, such as 135 or 531",
+                "function": "no_sequence_in_ascending_or_descending"
+            },
+            {
+                "id": "1",
+                "description": "2 numbers in ascending or descending order, such as 235 or 532",
+                "function": "two_in_sequence_in_ascending_or_descending"
+            },
+            {
+                "id": "2",
+                "description": "3 numbers in ascending or descending order, such as 234 or 432",
+                "function": "three_in_sequence_in_ascending_or_descending"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069578+00:00",
+        "updated_at": "2025-06-17T09:36:30.069579+00:00"
+    },
+    "26": {
+        "id": "26",
+        "description": "This Verifier verifies that a specific colour is less than 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than 3",
+                "function": "blue_lt_3"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is less than 3",
+                "function": "yellow_lt_3"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is less than 3",
+                "function": "purple_lt_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069582+00:00",
+        "updated_at": "2025-06-17T09:36:30.069583+00:00"
+    },
+    "27": {
+        "id": "27",
+        "description": "This Verifier verifies that a specific colour is less than 4",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than 4",
+                "function": "blue_lt_4"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is less than 4",
+                "function": "yellow_lt_4"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is less than 4",
+                "function": "purple_lt_4"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069586+00:00",
+        "updated_at": "2025-06-17T09:36:30.069587+00:00"
+    },
+    "28": {
+        "id": "28",
+        "description": "This Verifier verifies that a specific colour is equal to 1",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is equal to 1",
+                "function": "blue_eq_1"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to 1",
+                "function": "yellow_eq_1"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is equal to 1",
+                "function": "purple_eq_1"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069590+00:00",
+        "updated_at": "2025-06-17T09:36:30.069591+00:00"
+    },
+    "29": {
+        "id": "29",
+        "description": "This Verifier verifies that a specific colour is equal to 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is equal to 3",
+                "function": "blue_eq_3"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to 3",
+                "function": "yellow_eq_3"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is equal to 3",
+                "function": "purple_eq_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069594+00:00",
+        "updated_at": "2025-06-17T09:36:30.069595+00:00"
+    },
+    "30": {
+        "id": "30",
+        "description": "This Verifier verifies that a specific colour is equal to 4",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is equal to 4",
+                "function": "blue_eq_4"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is equal to 4",
+                "function": "yellow_eq_4"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is equal to 4",
+                "function": "purple_eq_4"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069598+00:00",
+        "updated_at": "2025-06-17T09:36:30.069599+00:00"
+    },
+    "31": {
+        "id": "31",
+        "description": "This Verifier verifies that a specific colour is greater than 1",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is greater than 1",
+                "function": "blue_gt_1"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is greater than 1",
+                "function": "yellow_gt_1"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is greater than 1",
+                "function": "purple_gt_1"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069602+00:00",
+        "updated_at": "2025-06-17T09:36:30.069603+00:00"
+    },
+    "32": {
+        "id": "32",
+        "description": "This Verifier verifies that a specific colour is greater than 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is greater than 3",
+                "function": "blue_gt_3"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is greater than 3",
+                "function": "yellow_gt_3"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is greater than 3",
+                "function": "purple_gt_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069605+00:00",
+        "updated_at": "2025-06-17T09:36:30.069610+00:00"
+    },
+    "33": {
+        "id": "33",
+        "description": "This Verifier verifies that a specific colour is even or odd",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is even",
+                "function": "blue_is_even"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is odd",
+                "function": "blue_is_odd"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is even",
+                "function": "yellow_is_even"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is odd",
+                "function": "yellow_is_odd"
+            },
+            {
+                "id": "4",
+                "description": "PURPLE is even",
+                "function": "purple_is_even"
+            },
+            {
+                "id": "5",
+                "description": "PURPLE is odd",
+                "function": "purple_is_odd"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069613+00:00",
+        "updated_at": "2025-06-17T09:36:30.069614+00:00"
+    },
+    "34": {
+        "id": "34",
+        "description": "This Verifier verifies which colour has the smallest number (or is tied for the smallest number)",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is the smallest or is equal to PURPLE and YELLOW",
+                "function": "blue_smallest_or_tie"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is the smallest or is equal to BLUE and PURPLE",
+                "function": "yellow_smallest_or_tie"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is the smallest or is equal to YELLOW and BLUE",
+                "function": "purple_smallest_or_tie"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069617+00:00",
+        "updated_at": "2025-06-17T09:36:30.069618+00:00"
+    },
+    "35": {
+        "id": "35",
+        "description": "This Verifier verifies which colour has the largest number (or is tied for the largest number)",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is the largest or is equal to PURPLE and YELLOW",
+                "function": "blue_largest_or_tie"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is the largest or is equal to BLUE and PURPLE",
+                "function": "yellow_largest_or_tie"
+            },
+            {
+                "id": "2",
+                "description": "PURPLE is the largest or is equal to YELLOW and BLUE",
+                "function": "purple_largest_or_tie"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069621+00:00",
+        "updated_at": "2025-06-17T09:36:30.069622+00:00"
+    },
+    "36": {
+        "id": "36",
+        "description": "This Verifier verifies the sum of all the numbers is a multiple of 3 or 4 or 5",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of all the numbers is a multiple of 3",
+                "function": "sum_multiple_of_3"
+            },
+            {
+                "id": "1",
+                "description": "the sum of all the numbers is a multiple of 4",
+                "function": "sum_multiple_of_4"
+            },
+            {
+                "id": "2",
+                "description": "the sum of all the numbers is a multiple of 5",
+                "function": "sum_multiple_of_5"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069629+00:00",
+        "updated_at": "2025-06-17T09:36:30.069630+00:00"
+    },
+    "37": {
+        "id": "37",
+        "description": "This Verifier verifies the sum of 2 specific colours is equal to 4",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of BLUE and YELLOW is equal to 4",
+                "function": "blue_yellow_sum_eq_4"
+            },
+            {
+                "id": "1",
+                "description": "the sum of BLUE and PURPLE is equal to 4",
+                "function": "blue_purple_sum_eq_4"
+            },
+            {
+                "id": "2",
+                "description": "the sum of YELLOW and PURPLE is equal to 4",
+                "function": "yellow_purple_sum_eq_4"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069633+00:00",
+        "updated_at": "2025-06-17T09:36:30.069634+00:00"
+    },
+    "38": {
+        "id": "38",
+        "description": "This Verifier verifies the sum of 2 specific colours is equal to 6",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "the sum of BLUE and YELLOW is equal to 6",
+                "function": "blue_yellow_sum_eq_6"
+            },
+            {
+                "id": "1",
+                "description": "the sum of BLUE and PURPLE is equal to 6",
+                "function": "blue_purple_sum_eq_6"
+            },
+            {
+                "id": "2",
+                "description": "the sum of YELLOW and PURPLE is equal to 6",
+                "function": "yellow_purple_sum_eq_6"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069637+00:00",
+        "updated_at": "2025-06-17T09:36:30.069638+00:00"
+    },
+    "39": {
+        "id": "39",
+        "description": "This Verifier verifies the number of one specific colour compared to 1",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is equal to 1",
+                "function": "blue_eq_1"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is greater than 1",
+                "function": "blue_gt_1"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is equal to 1",
+                "function": "yellow_eq_1"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is greater than 1",
+                "function": "yellow_gt_1"
+            },
+            {
+                "id": "4",
+                "description": "PURPLE is equal to 1",
+                "function": "purple_eq_1"
+            },
+            {
+                "id": "5",
+                "description": "PURPLE is greater than 1",
+                "function": "purple_gt_1"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069641+00:00",
+        "updated_at": "2025-06-17T09:36:30.069642+00:00"
+    },
+    "40": {
+        "id": "40",
+        "description": "This Verifier verifies the number of one specific colour compared to 3",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than 3",
+                "function": "blue_lt_3"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to 3",
+                "function": "blue_eq_3"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than 3",
+                "function": "blue_gt_3"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is less than 3",
+                "function": "yellow_lt_3"
+            },
+            {
+                "id": "4",
+                "description": "YELLOW is equal to 3",
+                "function": "yellow_eq_3"
+            },
+            {
+                "id": "5",
+                "description": "YELLOW is greater than 3",
+                "function": "yellow_gt_3"
+            },
+            {
+                "id": "6",
+                "description": "PURPLE is less than 3",
+                "function": "purple_lt_3"
+            },
+            {
+                "id": "7",
+                "description": "PURPLE is equal to 3",
+                "function": "purple_eq_3"
+            },
+            {
+                "id": "8",
+                "description": "PURPLE is greater than 3",
+                "function": "purple_gt_3"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069650+00:00",
+        "updated_at": "2025-06-17T09:36:30.069651+00:00"
+    },
+    "41": {
+        "id": "41",
+        "description": "This Verifier verifies the number of one specific colour compared to 4",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than 4",
+                "function": "blue_lt_4"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to 4",
+                "function": "blue_eq_4"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than 4",
+                "function": "blue_gt_4"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is less than 4",
+                "function": "yellow_lt_4"
+            },
+            {
+                "id": "4",
+                "description": "YELLOW is equal to 4",
+                "function": "yellow_eq_4"
+            },
+            {
+                "id": "5",
+                "description": "YELLOW is greater than 4",
+                "function": "yellow_gt_4"
+            },
+            {
+                "id": "6",
+                "description": "PURPLE is less than 4",
+                "function": "purple_lt_4"
+            },
+            {
+                "id": "7",
+                "description": "PURPLE is equal to 4",
+                "function": "purple_eq_4"
+            },
+            {
+                "id": "8",
+                "description": "PURPLE is greater than 4",
+                "function": "purple_gt_4"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069655+00:00",
+        "updated_at": "2025-06-17T09:36:30.069656+00:00"
+    },
+    "42": {
+        "id": "42",
+        "description": "This Verifier verifies which colour is the smallest or the largest",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is the smallest",
+                "function": "blue_smallest"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is the largest",
+                "function": "blue_largest"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is the smallest",
+                "function": "yellow_smallest"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is the largest",
+                "function": "yellow_largest"
+            },
+            {
+                "id": "4",
+                "description": "PURPLE is the smallest",
+                "function": "purple_smallest"
+            },
+            {
+                "id": "5",
+                "description": "PURPLE is the largest",
+                "function": "purple_largest"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069659+00:00",
+        "updated_at": "2025-06-17T09:36:30.069663+00:00"
+    },
+    "43": {
+        "id": "43",
+        "description": "This Verifier verifies the BLUE number compared to the number of another specific colour",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than YELLOW",
+                "function": "blue_lt_yellow"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is less than PURPLE",
+                "function": "blue_lt_purple"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is equal to YELLOW",
+                "function": "blue_eq_yellow"
+            },
+            {
+                "id": "3",
+                "description": "BLUE is equal to PURPLE",
+                "function": "blue_eq_purple"
+            },
+            {
+                "id": "4",
+                "description": "BLUE is greater than YELLOW",
+                "function": "blue_gt_yellow"
+            },
+            {
+                "id": "5",
+                "description": "BLUE is greater than PURPLE",
+                "function": "blue_gt_purple"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069666+00:00",
+        "updated_at": "2025-06-17T09:36:30.069667+00:00"
+    },
+    "44": {
+        "id": "44",
+        "description": "This Verifier verifies the YELLOW number compared to the number of another specific colour",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "YELLOW is less than BLUE",
+                "function": "yellow_lt_blue"
+            },
+            {
+                "id": "1",
+                "description": "YELLOW is less than PURPLE",
+                "function": "yellow_lt_purple"
+            },
+            {
+                "id": "2",
+                "description": "YELLOW is equal to BLUE",
+                "function": "yellow_eq_blue"
+            },
+            {
+                "id": "3",
+                "description": "YELLOW is equal to PURPLE",
+                "function": "yellow_eq_purple"
+            },
+            {
+                "id": "4",
+                "description": "YELLOW is greater than BLUE",
+                "function": "yellow_gt_blue"
+            },
+            {
+                "id": "5",
+                "description": "YELLOW is greater than PURPLE",
+                "function": "yellow_gt_purple"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069672+00:00",
+        "updated_at": "2025-06-17T09:36:30.069673+00:00"
+    },
+    "45": {
+        "id": "45",
+        "description": "This Verifier verifies how many 1s OR how many 3s there are in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 1s, such as 232",
+                "function": "zero_1s"
+            },
+            {
+                "id": "1",
+                "description": "one 1, such as 331",
+                "function": "one_1"
+            },
+            {
+                "id": "2",
+                "description": "two 1s, such as 151",
+                "function": "two_1s"
+            },
+            {
+                "id": "3",
+                "description": "zero 3s, such as 514",
+                "function": "zero_3s"
+            },
+            {
+                "id": "4",
+                "description": "one 3, such as 351",
+                "function": "one_3"
+            },
+            {
+                "id": "5",
+                "description": "two 3s, such as 533",
+                "function": "two_3s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069676+00:00",
+        "updated_at": "2025-06-17T09:36:30.069680+00:00"
+    },
+    "46": {
+        "id": "46",
+        "description": "This Verifier verifies how many 3s OR how many 4s there are in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 3s, such as 252",
+                "function": "zero_3s"
+            },
+            {
+                "id": "1",
+                "description": "one 3, such as 113",
+                "function": "one_3"
+            },
+            {
+                "id": "2",
+                "description": "two 3s, such as 353",
+                "function": "two_3s"
+            },
+            {
+                "id": "3",
+                "description": "zero 4s, such as 512",
+                "function": "zero_4s"
+            },
+            {
+                "id": "4",
+                "description": "one 4, such as 451",
+                "function": "one_4"
+            },
+            {
+                "id": "5",
+                "description": "two 4s, such as 544",
+                "function": "two_4s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069684+00:00",
+        "updated_at": "2025-06-17T09:36:30.069685+00:00"
+    },
+    "47": {
+        "id": "47",
+        "description": "This Verifier verifies how many 1s OR how many 4s there are in the code",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "zero 1s, such as 232",
+                "function": "zero_1s"
+            },
+            {
+                "id": "1",
+                "description": "one 1, such as 331",
+                "function": "one_1"
+            },
+            {
+                "id": "2",
+                "description": "two 1s, such as 151",
+                "function": "two_1s"
+            },
+            {
+                "id": "3",
+                "description": "zero 4s, such as 512",
+                "function": "zero_4s"
+            },
+            {
+                "id": "4",
+                "description": "one 4, such as 451",
+                "function": "one_4"
+            },
+            {
+                "id": "5",
+                "description": "two 4s, such as 544",
+                "function": "two_4s"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069688+00:00",
+        "updated_at": "2025-06-17T09:36:30.069689+00:00"
+    },
+    "48": {
+        "id": "48",
+        "description": "This Verifier verifies one specific colour compared to another specific colour",
+        "criteria": [
+            {
+                "id": "0",
+                "description": "BLUE is less than YELLOW",
+                "function": "blue_lt_yellow"
+            },
+            {
+                "id": "1",
+                "description": "BLUE is equal to YELLOW",
+                "function": "blue_eq_yellow"
+            },
+            {
+                "id": "2",
+                "description": "BLUE is greater than YELLOW",
+                "function": "blue_gt_yellow"
+            },
+            {
+                "id": "3",
+                "description": "BLUE is less than PURPLE",
+                "function": "blue_lt_purple"
+            },
+            {
+                "id": "4",
+                "description": "BLUE is equal to PURPLE",
+                "function": "blue_eq_purple"
+            },
+            {
+                "id": "5",
+                "description": "BLUE is greater than PURPLE",
+                "function": "blue_gt_purple"
+            },
+            {
+                "id": "6",
+                "description": "YELLOW is less than PURPLE",
+                "function": "yellow_lt_purple"
+            },
+            {
+                "id": "7",
+                "description": "YELLOW is equal to PURPLE",
+                "function": "yellow_eq_purple"
+            },
+            {
+                "id": "8",
+                "description": "YELLOW is greater than PURPLE",
+                "function": "yellow_gt_purple"
+            }
+        ],
+        "created_at": "2025-06-17T09:36:30.069693+00:00",
+        "updated_at": "2025-06-17T09:36:30.069698+00:00"
+    }
+}
