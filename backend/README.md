@@ -51,3 +51,8 @@ Run image locally:
 ```console
 docker run --env-file [.env file path] -e PORT=8000 -p 8000:8000 [--rm] [image-id] 
 ```
+
+## License
+
+This project is licensed under the MIT License.  
+This project used template from [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template/tree/master).
